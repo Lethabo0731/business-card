@@ -1,0 +1,83 @@
+@media print {
+  body {
+    margin: 0;
+  }
+  .card {
+    box-shadow: none;
+    page-break-inside: avoid;
+  }
+}
+
+body {
+  background: #f0f0f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  width: 400px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #0077cc;
+}
+
+.card h1 {
+  margin: 0;
+  font-size: 1.8em;
+  color: #333;
+}
+
+.title {
+  color: #555;
+  font-weight: bold;
+  margin: 5px 0 10px 0;
+}
+
+.contact p,
+.footer p {
+  margin: 8px 0;
+  color: #444;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.skills li {
+  margin: 5px 0;
+  color: #333;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 15px 0;
+}
+
